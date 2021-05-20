@@ -1,0 +1,87 @@
+
+* {
+  box-sizing: border-box;
+}
+header {
+  background-color:WHITE ;
+  padding:50px;
+  text-align: center;
+  font-size: 25px;
+  color: black;
+}
+
+
+.left {
+  background-color: GRAY;
+  padding: 5px;
+  float: left;
+  width: 20%; /* The width is 20%, by default */
+  border-style:solid
+  
+  
+  
+}
+.div2 {
+  float:right;
+  background-color:pink;
+  box-sizing: border-box;
+
+}
+
+.div3{
+float:right;
+background-color:red;
+margin:2px;
+box-sizing: border-box;
+}
+
+.div4{
+float:right;
+background-color:yellow;
+margin:5px;
+
+}
+
+
+.main {
+  background-color: GRAY;
+  padding: 3px;
+  float: left;
+  width: 20%; 
+  height: 50%;  
+ 
+}
+
+.right {
+  background-color:GRAY;
+  padding: 3px;
+  float: left;
+  width: 20%; 
+}
+
+.left1{
+margin:20px;
+}
+
+.main1{
+margin:20px;
+}
+
+.right1{
+margin:20px;
+}
+
+
+
+@media screen and (max-width: 992px) {
+  .left, .main, .right {
+    width: 190px;
+    margin-left:120px;
+    margin:60px;
+    border-style:solid;
+    height:230px;
+    
+    
+    
+  }
+}
